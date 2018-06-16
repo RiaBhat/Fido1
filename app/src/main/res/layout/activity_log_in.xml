@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fido1.SignUp"
+    android:background="@color/Background">
+
+    <EditText
+        android:id="@+id/b1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="Email ID "
+        />
+    <EditText
+        android:id="@+id/b2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/b1"
+        android:hint="Password "
+        />
+    <EditText
+        android:id="@+id/b3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/b2"
+        android:hint="User Name"
+        />
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/White"
+        android:layout_below="@id/b3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Login"
+        />
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/White"
+        android:layout_below="@id/a1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Login using google"
+        />
+    <Button
+        android:id="@+id/a3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/White"
+        android:layout_below="@id/a2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Login using phone no."
+        />
+    <Button
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a3"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="New User? SignUp"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/White"
+        android:background="@color/Background"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "724697190247",
+    "firebase_url": "https://fido1-5378d.firebaseio.com",
+    "project_id": "fido1-5378d",
+    "storage_bucket": "fido1-5378d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724697190247:android:a9148471bf939733",
+        "android_client_info": {
+          "package_name": "com.example.android.fido1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724697190247-5pv9dgt0hruu2di1kcp3pp2u5bcj6bad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.fido1",
+            "certificate_hash": "fb9c7fb10ac736489af7beb6c02262ce49d9ae55"
+          }
+        },
+        {
+          "client_id": "724697190247-l9t6362vqcc4mougn1pecogjnu022873.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "724697190247-l9t6362vqcc4mougn1pecogjnu022873.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDWq40mnbNICBV9yqWieuWKhK8SEce61Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724697190247-l9t6362vqcc4mougn1pecogjnu022873.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
